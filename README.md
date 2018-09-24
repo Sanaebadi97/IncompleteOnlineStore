@@ -2,6 +2,21 @@
 Online Store with Retrofit,RecyclerView,TabLayout,...
 
 
+----------
+
+# Some Screen Shots
+
+---
+
+
+![screenshot_20180924-161326](https://user-images.githubusercontent.com/26750131/45952972-ae1f6600-bfd6-11e8-849e-8901f2d0f6de.png)
+
+
+
+![screenshot_20180924-161330](https://user-images.githubusercontent.com/26750131/45953077-fc346980-bfd6-11e8-8fa3-e9cd4ef062bf.png)
+
+
+--------
 
 I just decided to Create an Android app for my friend's website (https://atandorosti.ir/)
 
