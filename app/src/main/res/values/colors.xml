@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="lightPrimaryColor">#C8E6C9</color>
+    <color name="textIcons">#FFFFFF</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="dividerColor">#BDBDBD</color>
+    <color name="bg">#ffffff</color>
+    <color name="view_bg">#E0E0E0</color>
+    <color name="new_wight_price">#2b2a2a</color>
+    <color name="new_unit">#363535</color>
+    <color name="list_bg">#e0eaef</color>
+    <color name="include_lay_text">#535050</color>
+    <color name="nav_selected">#dad8d8</color>
+    <color name="nav_icon_tint">#717171</color>
+    <color name="colorTransBg">#65ffffff</color>
+    <color name="nav_text">#004c8c</color>
+    <color name="details_toolbar">#00004c8c</color>
+    <color name="details_green_color">#4CAF50</color>
+    <color name="details_red_color">#DD2C00</color>
+    <color name="pro_name_color">#436e81</color>
+    <color name="pro_name_nav">#1d0329</color>
+
+</resources>

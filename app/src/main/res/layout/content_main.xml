@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="sanaebadi.ir.tandorosti.activity.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+
+
+        <!--  <ScrollView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fillViewport="true"
+              android:fitsSystemWindows="true"
+              android:scrollbarSize="1dp"
+              android:scrollbarThumbVertical="@color/bg">
+
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+
+                  >
+
+                  <include
+                      android:id="@+id/view_pager_set"
+                      layout="@layout/view_pager_set"
+                      android:layout_width="match_parent"
+                      android:layout_height="@dimen/view_pager_height"
+                      />
+
+                  <include
+                      android:id="@+id/best_lay"
+                      layout="@layout/best_lay"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/view_pager_set"
+                      android:layout_marginBottom="5dp"/>
+
+                  <android.support.v7.widget.RecyclerView
+                      android:id="@+id/best_pro_list"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/best_lay"
+                      android:layout_marginTop="@dimen/recycler_margin"/>
+
+
+                  <include
+                      android:id="@+id/new_lay"
+                      layout="@layout/new_lay"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@id/best_pro_list"
+                      android:layout_marginTop="5dp"/>
+
+
+                  <android.support.v7.widget.RecyclerView
+                      android:id="@+id/new_pro_list"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/new_lay"
+                      android:layout_marginTop="@dimen/recycler_margin"/>
+
+
+              </RelativeLayout>
+          </ScrollView> -->
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg"
+            android:scrollbars="none"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+
+                <ProgressBar
+                    android:id="@+id/main_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_pager_set"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:visibility="gone"/>
+
+                <include
+                    android:id="@+id/view_pager_set"
+                    layout="@layout/view_pager_set"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/view_pager_height"
+                    />
+
+                <include
+                    android:id="@+id/best_lay"
+                    layout="@layout/best_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view_pager_set"
+                    android:layout_marginBottom="5dp"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/best_pro_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/best_lay"
+                    android:layout_marginTop="@dimen/recycler_margin"/>
+
+
+                <include
+                    android:id="@+id/new_lay"
+                    layout="@layout/new_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/best_pro_list"
+                    android:layout_marginTop="5dp"/>
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/new_pro_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/new_lay"
+                    android:layout_marginTop="@dimen/recycler_margin"/>
+
+
+            </RelativeLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="sanaebadi.ir.tandorosti">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DrawerActivity.Beans"/>
+        <activity android:name=".DrawerActivity.Beverages"/>
+        <activity android:name=".DrawerActivity.Clothing"/>
+        <activity android:name=".DrawerActivity.Cosmetics"/>
+        <activity android:name=".DrawerActivity.JunkFood"/>
+        <activity android:name=".DrawerActivity.News"/>
+        <activity android:name=".DrawerActivity.Oil"/>
+        <activity android:name=".DrawerActivity.Seasoned"/>
+
+        <meta-data
+            android:name="sanaebadi.ir.tandorosti.manage.GlideConfiguration"
+            android:value="GlideModule"/>
+
+        <activity
+            android:name=".activity.NewDetailsActivity"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity android:name=".activity.BestDetailsActivity">
+        </activity>
+        <activity
+            android:name=".fullPhotoActivity.FullBestProPhoto"
+            android:theme="@style/ThemeFull">
+        </activity>
+        <activity android:name=".fullPhotoActivity.FullNewProPhoto">
+        </activity>
+        <activity android:name=".fabActivity.AboutUsActivity">
+        </activity>
+        <activity android:name=".fabActivity.ContactUsActivity">
+        </activity>
+        <activity android:name=".fabActivity.SettingActivity">
+        </activity>
+        <activity android:name=".activity.SameDetailsActivity">
+        </activity>
+        <activity android:name=".fullPhotoActivity.FullSameProPhoto">
+        </activity>
+        <activity android:name=".BeansDetailsActivirty.BranDetailsActivity">
+        </activity>
+        <activity android:name=".BeansDetailsActivirty.BreadDetailsActivity">
+        </activity>
+        <activity android:name=".BeansDetailsActivirty.FlourDetailsActivity">
+        </activity>
+        <activity android:name=".BeansDetailsActivirty.GrainDetailsActivity">
+        </activity>
+        <activity android:name=".BeansDetailsActivirty.RiceDetailsActivity">
+        </activity>
+        <activity android:name=".BeansDetailsActivirty.SpaghettiDetailsActivity">
+        </activity>
+        <activity android:name=".BeveragesDetailsActivity.DistillatesDetailsActivity">
+        </activity>
+        <activity android:name=".BeveragesDetailsActivity.JuiceDetailsActivity">
+        </activity>
+        <activity android:name=".BeveragesDetailsActivity.TeaDetailsActivity">
+        </activity>
+        <activity android:name=".ClothesDetailsActivity.FeltProDetailsActivity">
+        </activity>
+        <activity android:name=".ClothesDetailsActivity.KidsDetailsActivity">
+        </activity>
+        <activity android:name=".ClothesDetailsActivity.MensDetailsActivity">
+        </activity>
+        <activity android:name=".ClothesDetailsActivity.WomensDetailsActivity">
+        </activity>
+        <activity android:name=".CosmeticsDetailsActivity.CosmeticDetailsActivity">
+        </activity>
+        <activity android:name=".CosmeticsDetailsActivity.MedicinalPlantsDetailsActivity">
+        </activity>
+        <activity android:name=".CosmeticsDetailsActivity.SanitaryDetailsActivity">
+        </activity>
+        <activity android:name=".NewsDetailsActivity.DairyDetailsActivity">
+        </activity>
+        <activity android:name=".NewsDetailsActivity.FruitDetailsActivity">
+        </activity>
+        <activity android:name=".NewsDetailsActivity.ProteinDetailsActivity">
+        </activity>
+        <activity android:name=".NewsDetailsActivity.SiffyDetailsActivity">
+        </activity>
+        <activity android:name=".NewsDetailsActivity.VegetablesDetailsActivity">
+        </activity>
+        <activity android:name=".JunkFoodDetailsActcivity.BiscuitsDetailsActivity">
+        </activity>
+        <activity android:name=".JunkFoodDetailsActcivity.DriedFruitDetailsActivity">
+        </activity>
+        <activity android:name=".JunkFoodDetailsActcivity.NutsDetailsActivity">
+        </activity>
+        <activity android:name=".JunkFoodDetailsActcivity.OtherSnacksDetailsActivity">
+        </activity>
+        <activity android:name=".OilDetailsActivity.OliveDetailsActivity">
+        </activity>
+        <activity android:name=".OilDetailsActivity.PeanutDetailsActivity">
+        </activity>
+        <activity android:name=".OilDetailsActivity.SesameDetailsActivity">
+        </activity>
+        <activity android:name=".OilDetailsActivity.SunFlowerDetailsActivity">
+        </activity>
+        <activity android:name=".SeasondDetailsActivity.HoneyAndJamDetailsActivity">
+        </activity>
+        <activity android:name=".SeasondDetailsActivity.PasteAndSauceDetailsActivity">
+        </activity>
+        <activity android:name=".SeasondDetailsActivity.PicklesDetailsActivity">
+        </activity>
+        <activity android:name=".SeasondDetailsActivity.SpiceDetailsActivity">
+        </activity>
+        <activity android:name=".SeasondDetailsActivity.SugarDetailsActivity">
+        </activity>
+        <activity android:name=".SeasondDetailsActivity.SweetsDetailsActivity">
+        </activity>
+        <activity android:name=".networkActivity.NetworkActivity">
+        </activity>
+        <activity android:name=".activity.LoginActivity">
+        </activity>
+    </application>
+
+</manifest>

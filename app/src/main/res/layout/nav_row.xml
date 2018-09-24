@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:paddingBottom="1dp"
+        android:paddingTop="1dp">
+
+        <TextView
+            android:id="@+id/txt_nav_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="end|center"
+            android:textColor="@color/pro_name_nav"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            tools:text="تازه ها"/>
+
+        <ImageView
+            android:id="@+id/img_nav_icon"
+            android:layout_width="20dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:layout_margin="17dp"
+            android:contentDescription="TODO"
+            android:tint="@color/nav_icon_tint"
+            tools:ignore="ContentDescription,HardcodedText"
+            tools:src="@drawable/ic_shopping_basket_black_24dp"/>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

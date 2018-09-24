@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">ارمغان تندرستی</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_nav">navigation</string>
+    <string name="toolbar_title">ارمغان تندرستی</string>
+
+    <string name="new_pro">آخرین محصولات</string>
+    <string name="new_pro_view">مشاهده بیشتر</string>
+    <string name="best_pro">علاقمندی ها</string>
+    <string name="hello_blank_fragment">blank blank</string>/>
+
+
+    <!-- TODO: Drawer Items  -->
+
+    <string name="nav_home">خانه</string>
+    <string name="nav_news">تازه ها</string>
+    <string name="nav_beverages">نوشیدنی</string>
+    <string name="nav_junk_food">تنقلات</string>
+    <string name="nav_seasoned">چاشنی</string>
+    <string name="nav_beans_and_cereals">حبوبات و غلات</string>
+    <string name="nav_oil">روغن</string>
+    <string name="nav_cosmetics">آرایشی و بهداشتی</string>
+    <string name="nav_clothing">پوشاک</string>
+    <string name="nav_about">درباره ما</string>
+
+
+    <!-- TODO: News Tabs Title -->
+
+    <string name="news_dairy">لبنیات</string>
+    <string name="news_fruit">سبزیجات</string>
+    <string name="news_protein">میوه</string>
+    <string name="news_siffy">پروتئین</string>
+    <string name="news_vegetables">صیفی جات</string>
+    <string name="beans_title">حبوبات و غلات</string>
+
+    <!-- TODO: Drawer Items Toolbar Titles -->
+
+    <string name="beverages_title">نوشیدنی</string>
+    <string name="clothing_title">پوشاک</string>
+    <string name="beans_and_cereals_toolbar">حبوبات و غلات</string>
+    <string name="junk_food_title">تنقلات</string>
+    <string name="seasoned_title">چاشنی</string>
+    <string name="oil_title">روغن</string>
+    <string name="cosmetics_title">آرایشی و بهداشتی</string>
+    <string name="news_title">تازه ها</string>
+
+    <!-- Popup Menu Items -->
+
+    <string name="edit">ویرایش اکانت</string>
+    <string name="login">ورود</string>
+
+    <!-- Fab Text -->
+
+    <string name="setting">تنظیمات</string>
+    <string name="about_us">درباره ما</string>
+    <string name="contact_us">ارتباط با ما</string>
+
+
+    <!-- Details Check Text -->
+
+    <string name="support_ready_send">آماده ارسال به سراسر کشور</string>
+    <string name="support_packing">بسته بندی توسط ارمغان تندرستی و ارسال الوپیک</string>
+    <string name="support_sell">فروش توسط فروشگاه ارمغان تندرستی</string>
+    <string name="text_add_shopping">افزودن به سبد خرید</string>
+    <string name="txt_same_pro">محصولات مشابه</string>
+
+
+    <!-- Network -->
+    <string name="you_are_offline">خطا در اتصال به اینترنت !</string>
+    <string name="network_setting">بررسی تنظیمات شبکه</string>
+    <string name="try_again">تلاش دوباره</string>
+
+
+    <!--Snack Bar -->
+    <string name="snack_error">خطا در اتصال به اینترنت </string>
+    <string name="snack_setting">تنظیمات </string>
+</resources>
