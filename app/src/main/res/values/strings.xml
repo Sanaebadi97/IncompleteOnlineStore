@@ -1,19 +1,16 @@
 <resources>
     <string name="app_name">ارمغان تندرستی</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_nav">navigation</string>
     <string name="toolbar_title">ارمغان تندرستی</string>
 
     <string name="new_pro">آخرین محصولات</string>
     <string name="new_pro_view">مشاهده بیشتر</string>
-    <string name="best_pro">علاقمندی ها</string>
-    <string name="hello_blank_fragment">blank blank</string>/>
+    <string name="best_pro">علاقمندی ها</string><![CDATA[
+    />
 
 
-    <!-- TODO: Drawer Items  -->
+    ]]><!-- TODO: Drawer Items  -->
 
     <string name="nav_home">خانه</string>
     <string name="nav_news">تازه ها</string>
@@ -24,23 +21,16 @@
     <string name="nav_oil">روغن</string>
     <string name="nav_cosmetics">آرایشی و بهداشتی</string>
     <string name="nav_clothing">پوشاک</string>
-    <string name="nav_about">درباره ما</string>
 
 
     <!-- TODO: News Tabs Title -->
 
-    <string name="news_dairy">لبنیات</string>
-    <string name="news_fruit">سبزیجات</string>
-    <string name="news_protein">میوه</string>
-    <string name="news_siffy">پروتئین</string>
-    <string name="news_vegetables">صیفی جات</string>
     <string name="beans_title">حبوبات و غلات</string>
 
     <!-- TODO: Drawer Items Toolbar Titles -->
 
     <string name="beverages_title">نوشیدنی</string>
     <string name="clothing_title">پوشاک</string>
-    <string name="beans_and_cereals_toolbar">حبوبات و غلات</string>
     <string name="junk_food_title">تنقلات</string>
     <string name="seasoned_title">چاشنی</string>
     <string name="oil_title">روغن</string>
@@ -70,7 +60,6 @@
 
     <!-- Network -->
     <string name="you_are_offline">خطا در اتصال به اینترنت !</string>
-    <string name="network_setting">بررسی تنظیمات شبکه</string>
     <string name="try_again">تلاش دوباره</string>
 
 
