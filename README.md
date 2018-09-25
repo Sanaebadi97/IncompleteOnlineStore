@@ -1,16 +1,10 @@
 # IncompleteOnlineStore
+
 Online Store with Retrofit,RecyclerView,TabLayout,...
 
 
-----------
+![screenshot from 2018-09-25 13-30-00](https://user-images.githubusercontent.com/26750131/46007655-956f8880-c088-11e8-9721-381cc4723ced.png)
 
-# Some Screen Shots
-
----
-
-
-
---------
 
 I just decided to Create an Android app for my friend's website (https://atandorosti.ir/)
 
