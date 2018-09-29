@@ -1,6 +1,6 @@
 # IncompleteOnlineStore
 
-Online Store with Retrofit,RecyclerView,TabLayout,...
+Online Store with Retrofit,RecyclerView,TabLayout,..(Materail Design)
 
 
 ![screenshot from 2018-09-25 13-30-00](https://user-images.githubusercontent.com/26750131/46007655-956f8880-c088-11e8-9721-381cc4723ced.png)
@@ -17,4 +17,4 @@ So I published it on the github. In this project, as far as I was able to
 customize and use less of a project outside of Google.
 Also, I used retrofit for communication, and from RecyclerView and ... 
 
-and Material Design. Hope you can use it. Good luck
+and Material Design. Hope you can use it. Good luck :)
