@@ -8,7 +8,7 @@ Online Store with Retrofit,RecyclerView,TabLayout,..(Materail Design)
 
 I just decided to Create an Android app for my friend's website (https://atandorosti.ir/)
 
-which is a store website. 
+which is a online store website. 
 I made it simple and basic with my basic knowledge, but I did not continue to do it anymore,
 
 and I decided to go through this project with a new design with Kotlin language. 
