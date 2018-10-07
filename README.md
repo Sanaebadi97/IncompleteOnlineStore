@@ -6,7 +6,7 @@ Online Store with Retrofit,RecyclerView,TabLayout,..(Materail Design)
 ![screenshot from 2018-09-25 13-30-00](https://user-images.githubusercontent.com/26750131/46007655-956f8880-c088-11e8-9721-381cc4723ced.png)
 
 
-I just decided to Create an Android app for my friend's website (https://atandorosti.ir/)
+I just decided to Create an Android app for my friend's [website](https://atandorosti.ir/)
 
 which is a online store website. 
 I made it simple and basic with my basic knowledge, but I did not continue to do it anymore,
