@@ -35,6 +35,10 @@ public class BranAdapter extends RecyclerView.Adapter<BranAdapter.BranViewHolder
   private Context context;
 
 
+  public BranAdapter(List<Bran> branList, Context context) {
+    this.branList = branList;
+    this.context = context;
+  }
 
   @NonNull
   @Override
