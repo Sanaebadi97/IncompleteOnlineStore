@@ -86,7 +86,11 @@ public class BranAdapter extends RecyclerView.Adapter<BranAdapter.BranViewHolder
     } catch (Exception e) {
       return 0;
     }
+    
   }
+  
+     NumberFormat formatter = new DecimalFormat("#,###,###,###");
+    holder.txt_price.setText(" " + formatter.format(bran.getPro_price()));
 
   public class BranViewHolder extends RecyclerView.ViewHolder {
 
