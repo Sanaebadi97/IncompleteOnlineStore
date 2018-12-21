@@ -15,6 +15,6 @@ and I decided to go through this project with a new design with [Kotlin language
 
 So I published it on the github. In this project, as far as I was able to 
 customize and use less of a project outside of Google.
-Also, I used retrofit for communication, and from RecyclerView and ... 
+Also, I used retrofit for communication, and from ```RecyclerView ```and ... 
 
 and Material Design. Hope you can use it. Good luck :)
