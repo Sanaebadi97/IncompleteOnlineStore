@@ -11,7 +11,7 @@ I just decided to Create an Android app for my friend's [website](https://atando
 which is a online store website. 
 I made it simple and basic with my basic knowledge, but I did not continue to do it anymore,
 
-and I decided to go through this project with a new design with Kotlin language. 
+and I decided to go through this project with a new design with [Kotlin language](http://kotlinlang.org/). 
 
 So I published it on the github. In this project, as far as I was able to 
 customize and use less of a project outside of Google.
