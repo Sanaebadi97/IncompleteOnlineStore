@@ -13,7 +13,7 @@ I made it simple and basic with my basic knowledge, but I did not continue to do
 
 and I decided to go through this project with a new design with [Kotlin language](http://kotlinlang.org/). 
 
-So I published it on the github. In this project, as far as I was able to 
+ In this project, as far as I was able to 
 customize and use less of a project outside of Google.
 Also, I used retrofit for communication, and from ```RecyclerView ```and ... 
 
