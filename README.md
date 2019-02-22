@@ -1,6 +1,6 @@
 # IncompleteOnlineStore
 
-__Online Store with ```Retrofit2```,```RecyclerView```,```Tablayout```,```CustomView```..```(Materail Design Components)```__
+__Online Store with ```Retrofit2```,```RecyclerView```,```Tablayout```,```CustomView```..```(Materail Design Components)```,``__
 
 
 ![screenshot from 2018-09-25 13-30-00](https://user-images.githubusercontent.com/26750131/46007655-956f8880-c088-11e8-9721-381cc4723ced.png)
