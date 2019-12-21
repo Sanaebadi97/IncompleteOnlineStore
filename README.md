@@ -17,4 +17,4 @@ and I decided to go through this project with a new design with [Kotlin language
 customize and use less of a project outside of Google.
 Also, I used retrofit for communication, and  ```RecyclerView ```and ... 
 
-and ```Material Design```. Hope you can use it. Good luck :)
+and ```Material Design```. Hope you can use it. Good luck :heart: 
